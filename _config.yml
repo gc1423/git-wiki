@@ -77,24 +77,24 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "git-wiki-default"
+      layout: "git-wiki-bs-github"
  -
     scope:
       path: ""
       type: "pages"
     values:
-      layout: "git-wiki-default"
+      layout: "git-wiki-bs-github"
  -
     scope:
       path: ""
       type: "posts"
     values:
-      layout: "git-wiki-post"
+      layout: "git-wiki-bs-github"
  -
     scope:
       path: blog
     values:
-      layout: "git-wiki-blog"
+      layout: "git-wiki-bs-github"
 sass:
     style: compressed
 plugins:
